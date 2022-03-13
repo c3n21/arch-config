@@ -10,6 +10,7 @@ AddPackage barrier # Open-source KVM software based on Synergy (GUI)
 AddPackage firefox-developer-edition # Developer Edition of the popular Firefox web browser
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
+AddPackage ibus-rime # Rime input method engine for ibus
 AddPackage mpv # a free, open source, and cross-platform media player
 AddPackage nvidia-dkms # NVIDIA drivers - module sources
 AddPackage nvidia-settings # Tool for configuring the NVIDIA graphics driver
