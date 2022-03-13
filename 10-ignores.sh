@@ -19,3 +19,9 @@ IgnorePath '/sys/*'
 IgnorePath '/tmp/*'
 IgnorePath '/usr/*'
 IgnorePath '/var/*'
+
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.extra
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.browser
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.ssh
+IgnorePath /etc/ld.so.cache
