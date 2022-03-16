@@ -1,4 +1,5 @@
 AddPackage --foreign gnome-shell-extension-appindicator-git # AppIndicator/KStatusNotifierItem support for GNOME Shell
+AddPackage --foreign gnome-shell-extension-gsconnect # KDE Connect implementation with GNOME Shell integration
 AddPackage --foreign gnome-shell-extension-pop-shell-git # Pop Shell - Tiling window management in Gnome (WIP)
 AddPackage --foreign gnome-shell-extension-sound-output-device-chooser-git # Enable selection of sound source and sink devices.
 AddPackage baobab

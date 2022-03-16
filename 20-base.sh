@@ -31,6 +31,7 @@ AddPackage networkmanager # Network connection manager and user applications
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage pkgconf # Package compiler and linker metadata toolkit
 AddPackage refind # An EFI boot manager
+AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage ripgrep-all # rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
 AddPackage rsync # A fast and versatile file copying tool for remote and local files
