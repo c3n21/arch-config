@@ -30,10 +30,10 @@ IgnorePath /etc/.updated
 IgnorePath /etc/pacman.d/mirrorlist
 IgnorePath /etc/pacman.d/gnupg/openpgp-revocs.d
 IgnorePath /etc/pacman.d/gnupg/private-keys-v1.d
-IgnorePath /etc/pacman.d/gnupg/*.gpg?*
+IgnorePath /etc/pacman.d/gnupg/*.gpg*
 IgnorePath /etc/pacman.d/gnupg/tofu.db
 IgnorePath /etc/refind.d/keys
 IgnorePath /etc/resolv.conf
 IgnorePath /etc/ssh
 IgnorePath /etc/ssl/certs
-
+IgnorePath /etc/dconf/db/ibus

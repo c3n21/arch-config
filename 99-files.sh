@@ -1,5 +1,9 @@
 
-CopyFile /etc/.updated
+
+# Wed Mar 16 10:37:04 AM CET 2022 - New / changed files
+
+
+CreateFile /etc/.pwd.lock 600 > /dev/null
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 CopyFile /etc/adjtime
 CopyFile /etc/arch-release
@@ -37,19 +41,20 @@ CopyFile /etc/libvirt/nwfilter/no-other-rarp-traffic.xml
 CopyFile /etc/libvirt/nwfilter/qemu-announce-self-rarp.xml
 CopyFile /etc/libvirt/nwfilter/qemu-announce-self.xml
 CopyFile /etc/libvirt/qemu/networks/default.xml
+CreateLink /etc/libvirt/storage/autostart/default.xml /etc/libvirt/storage/default.xml
 CopyFile /etc/libvirt/storage/default.xml 600
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
-CopyFile /etc/locale.gen.pacnew
+CreateLink /etc/localtime /usr/share/zoneinfo/Europe/Rome
 CopyFile /etc/machine-id 444
 CopyFile /etc/makepkg.conf
-CopyFile /etc/makepkg.conf
-CopyFile /etc/makepkg.conf.pacnew
-CopyFile /etc/memtest86-efi/memtest86-efi.conf
-CopyFile /etc/memtest86-efi/memtest86-efi.conf.pacnew
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/mkinitcpio.d/linux-zen.preset
+CreateDir /etc/openvpn/client 750 openvpn network
+CreateDir /etc/openvpn/server 750 openvpn network
+CreateLink /etc/os-release ../usr/lib/os-release
 CopyFile /etc/pacman.conf
+CreateFile /etc/pacman.d/gnupg/.gpg-v21-migrated > /dev/null
 CopyFile /etc/pacman.d/gnupg/gpg-agent.conf
 CopyFile /etc/pacman.d/gnupg/gpg.conf
 CopyFile /etc/pacman.d/hooks/90-mkinitcpio-install.hook
@@ -58,31 +63,20 @@ CopyFile /etc/passwd
 CopyFile /etc/passwd-
 CopyFile /etc/passwd.OLD
 CopyFile /etc/samba/smb.conf
+CreateFile /etc/sddm.conf > /dev/null
 CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells
+CreateDir /etc/smbnetfs/.cache/samba 644 smbnetfs nobody
 CopyFile /etc/snapper/configs/root 640
-CopyFile /etc/ssl/certs/java/cacerts 444
 CopyFile /etc/subgid
 CopyFile /etc/subgid-
 CopyFile /etc/subuid
 CopyFile /etc/subuid-
 CopyFile /etc/sudoers
-CopyFile /etc/sudoers.pacnew 440
 CopyFile /etc/sysctl.d/51-sysreq.conf
 CopyFile /etc/sysctl.d/99-swappiness.conf
-CreateDir /etc/openvpn/client 750 openvpn network
-CreateDir /etc/openvpn/server 750 openvpn network
-CreateDir /etc/smbnetfs/.cache/samba 644 smbnetfs nobody
-CreateFile /etc/.pwd.lock 600 > /dev/null
-CreateFile /etc/pacman.d/gnupg/.gpg-v21-migrated > /dev/null
-CreateFile /etc/pacman.d/gnupg/secring.gpg 600 > /dev/null
-CreateFile /etc/sddm.conf > /dev/null
-CreateLink /etc/libvirt/storage/autostart/default.xml /etc/libvirt/storage/default.xml
-CreateLink /etc/localtime /usr/share/zoneinfo/Europe/Rome
-CreateLink /etc/os-release ../usr/lib/os-release
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
-CreateLink /etc/systemd/system/default.target.wants/nvidia-fake-powerd.service /usr/lib/systemd/system/nvidia-fake-powerd.service
 CreateLink /etc/systemd/system/display-manager.service /usr/lib/systemd/system/gdm.service
 CreateLink /etc/systemd/system/getty.target.wants/getty@tty1.service /usr/lib/systemd/system/getty@.service
 CreateLink /etc/systemd/system/graphical.target.wants/upower.service /usr/lib/systemd/system/upower.service
@@ -104,6 +98,11 @@ CreateLink /etc/systemd/system/sysinit.target.wants/haveged.service /usr/lib/sys
 CreateLink /etc/systemd/system/timers.target.wants/reflector.timer /usr/lib/systemd/system/reflector.timer
 CreateLink /etc/systemd/system/timers.target.wants/snapper-cleanup.timer /usr/lib/systemd/system/snapper-cleanup.timer
 CreateLink /etc/systemd/system/timers.target.wants/snapper-timeline.timer /usr/lib/systemd/system/snapper-timeline.timer
+
+
+# Wed Mar 16 10:37:04 AM CET 2022 - New file properties
+
+
 SetFileProperty /etc/libvirt/secrets mode 700
 SetFileProperty /etc/smbnetfs/.smb group nobody
 SetFileProperty /etc/smbnetfs/.smb mode 644
