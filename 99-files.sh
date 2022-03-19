@@ -1,14 +1,5 @@
-
-
-# Wed Mar 16 10:37:04 AM CET 2022 - New / changed files
-
-
 CreateFile /etc/.pwd.lock 600 > /dev/null
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
-CopyFile /etc/adjtime
-CopyFile /etc/arch-release
-CopyFile /etc/conf.d/snapper
-CopyFile /etc/docker/key.json 600
 CopyFile /etc/fstab
 CopyFile /etc/group
 CopyFile /etc/group-
@@ -43,32 +34,17 @@ CopyFile /etc/libvirt/nwfilter/qemu-announce-self.xml
 CopyFile /etc/libvirt/qemu/networks/default.xml
 CreateLink /etc/libvirt/storage/autostart/default.xml /etc/libvirt/storage/default.xml
 CopyFile /etc/libvirt/storage/default.xml 600
-CopyFile /etc/locale.conf
-CopyFile /etc/locale.gen
 CreateLink /etc/localtime /usr/share/zoneinfo/Europe/Rome
 CopyFile /etc/machine-id 444
-CopyFile /etc/makepkg.conf
-CopyFile /etc/mkinitcpio.conf
-CopyFile /etc/mkinitcpio.d/linux-zen.preset
 CreateDir /etc/openvpn/client 750 openvpn network
 CreateDir /etc/openvpn/server 750 openvpn network
 CreateLink /etc/os-release ../usr/lib/os-release
-CopyFile /etc/pacman.conf
-CreateFile /etc/pacman.d/gnupg/.gpg-v21-migrated > /dev/null
-CopyFile /etc/pacman.d/gnupg/gpg-agent.conf
-CopyFile /etc/pacman.d/gnupg/gpg.conf
-CopyFile /etc/pacman.d/hooks/90-mkinitcpio-install.hook
-CopyFile /etc/paru.conf
-CopyFile /etc/passwd
-CopyFile /etc/passwd-
-CopyFile /etc/passwd.OLD
 CopyFile /etc/samba/smb.conf
 CreateFile /etc/sddm.conf > /dev/null
 CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells
 CreateDir /etc/smbnetfs/.cache/samba 644 smbnetfs nobody
-CopyFile /etc/snapper/configs/root 640
 
 CopyFile /etc/pacman.d/gnupg/crls.d/DIR.txt
 CopyFile /etc/subgid
