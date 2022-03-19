@@ -69,6 +69,8 @@ CopyFile /etc/shadow- 600
 CopyFile /etc/shells
 CreateDir /etc/smbnetfs/.cache/samba 644 smbnetfs nobody
 CopyFile /etc/snapper/configs/root 640
+
+CopyFile /etc/pacman.d/gnupg/crls.d/DIR.txt
 CopyFile /etc/subgid
 CopyFile /etc/subgid-
 CopyFile /etc/subuid
@@ -107,3 +109,4 @@ SetFileProperty /etc/libvirt/secrets mode 700
 SetFileProperty /etc/smbnetfs/.smb group nobody
 SetFileProperty /etc/smbnetfs/.smb mode 644
 SetFileProperty /etc/smbnetfs/.smb owner smbnetfs
+SetFileProperty /etc/pacman.d/gnupg/crls.d mode 700
