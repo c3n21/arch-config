@@ -36,6 +36,7 @@ AddPackage ripgrep # A search tool that combines the usability of ag with the ra
 AddPackage ripgrep-all # rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
 AddPackage rsync # A fast and versatile file copying tool for remote and local files
 AddPackage samba # SMB Fileserver and AD Domain server
+AddPackage sbsigntools # Tools to add signatures to EFI binaries and Drivers
 AddPackage smbnetfs # small C program that mounts Microsoft network neighborhood in single directory.
 AddPackage snap-pac # Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST
 AddPackage snapper # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
