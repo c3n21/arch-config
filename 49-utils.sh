@@ -14,6 +14,7 @@ AddPackage ibus-rime # Rime input method engine for ibus
 AddPackage mpv # a free, open source, and cross-platform media player
 AddPackage nvidia-dkms # NVIDIA drivers - module sources
 AddPackage nvidia-settings # Tool for configuring the NVIDIA graphics driver
+AddPackage obs-studio # Free, open source software for live streaming and recording
 AddPackage okular # Document Viewer
 AddPackage qemu # A generic and open source machine emulator and virtualizer
 AddPackage telegram-desktop # Official Telegram Desktop client
