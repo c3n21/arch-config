@@ -5,6 +5,7 @@ AddPackage --foreign nohang-git # A sophisticated low memory handler
 AddPackage --foreign pacman-cleanup-hook # hook to cleanup pacman cache keeping only the installed plus next most recent packages
 AddPackage --foreign paru # Feature packed AUR helper
 AddPackage --foreign surfshark-vpn # Surfshark VPN client
+AddPackage acpi_call # A linux kernel module that enables calls to ACPI methods through /proc/acpi/call
 AddPackage acpid # A daemon for delivering ACPI power management events with netlink support
 AddPackage autoconf # A GNU tool for automatically configuring source code
 AddPackage automake # A GNU tool for automatically creating Makefiles
@@ -21,9 +22,9 @@ AddPackage flex # A tool for generating text-scanning programs
 AddPackage haveged # Entropy harvesting daemon using CPU timings
 AddPackage htop # Interactive process viewer
 AddPackage intel-ucode # Microcode update files for Intel CPUs
+AddPackage linux # The Linux ZEN kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
-AddPackage linux-zen # The Linux ZEN kernel and modules
-AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
+AddPackage linux-headers # Headers and scripts for building modules for the Linux ZEN kernel
 AddPackage lshw # A small tool to provide detailed information on the hardware configuration of the machine.
 AddPackage m4 # The GNU macro processor
 AddPackage man-db # A utility for reading man pages
@@ -42,6 +43,8 @@ AddPackage snap-pac # Pacman hooks that use snapper to create pre/post btrfs sna
 AddPackage snapper # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
+AddPackage systemd-resolvconf # systemd resolvconf replacement (for use with systemd-resolved)
 AddPackage unrar # The RAR uncompression program
 AddPackage which # A utility to show the full path of commands
+AddPackage wireguard-tools # next generation secure network tunnel - tools for configuration
 AddPackage yt-dlp # A youtube-dl fork with additional features and fixes

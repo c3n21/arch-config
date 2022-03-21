@@ -1,3 +1,5 @@
+IgnorePath /etc/NetworkManager/system-connections
+IgnorePath /etc/X11/xorg.conf.d
 IgnorePath /etc/dconf/db/ibus
 IgnorePath /etc/mkinitcpio.d
 IgnorePath /etc/pacman.d/gnupg/*.gpg*
@@ -13,3 +15,4 @@ IgnorePath /etc/pacman.d/hooks
 IgnorePath /etc/pacman.d/mirrorlist
 IgnorePath /etc/refind.d/keys
 IgnorePath /etc/resolv.conf
+IgnorePath /etc/wireguard
