@@ -22,9 +22,9 @@ AddPackage flex # A tool for generating text-scanning programs
 AddPackage haveged # Entropy harvesting daemon using CPU timings
 AddPackage htop # Interactive process viewer
 AddPackage intel-ucode # Microcode update files for Intel CPUs
-AddPackage linux # The Linux ZEN kernel and modules
+AddPackage linux-zen # The Linux ZEN kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
-AddPackage linux-headers # Headers and scripts for building modules for the Linux ZEN kernel
+AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
 AddPackage lshw # A small tool to provide detailed information on the hardware configuration of the machine.
 AddPackage m4 # The GNU macro processor
 AddPackage man-db # A utility for reading man pages
