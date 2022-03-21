@@ -1,0 +1,15 @@
+IgnorePath /etc/dconf/db/ibus
+IgnorePath /etc/mkinitcpio.d
+IgnorePath /etc/pacman.d/gnupg/*.gpg*
+IgnorePath /etc/pacman.d/gnupg/S.dirmngr
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.browser
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.extra
+IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.ssh
+IgnorePath /etc/pacman.d/gnupg/openpgp-revocs.d
+IgnorePath /etc/pacman.d/gnupg/private-keys-v1.d
+IgnorePath /etc/pacman.d/gnupg/tofu.db
+IgnorePath /etc/pacman.d/hooks
+IgnorePath /etc/pacman.d/mirrorlist
+IgnorePath /etc/refind.d/keys
+IgnorePath /etc/resolv.conf
