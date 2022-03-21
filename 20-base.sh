@@ -5,7 +5,7 @@ AddPackage --foreign nohang-git # A sophisticated low memory handler
 AddPackage --foreign pacman-cleanup-hook # hook to cleanup pacman cache keeping only the installed plus next most recent packages
 AddPackage --foreign paru # Feature packed AUR helper
 AddPackage --foreign surfshark-vpn # Surfshark VPN client
-AddPackage acpi_call # A linux kernel module that enables calls to ACPI methods through /proc/acpi/call
+AddPackage acpi_call-dkms # A linux kernel module that enables calls to ACPI methods through /proc/acpi/call - module sources
 AddPackage acpid # A daemon for delivering ACPI power management events with netlink support
 AddPackage autoconf # A GNU tool for automatically configuring source code
 AddPackage automake # A GNU tool for automatically creating Makefiles
