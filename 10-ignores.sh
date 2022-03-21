@@ -20,7 +20,16 @@ IgnorePath '/tmp/*'
 IgnorePath '/usr/*'
 IgnorePath '/var/*'
 
+IgnorePath /etc/*.lock
 IgnorePath /etc/.updated
+IgnorePath /etc/adjtime
+IgnorePath /etc/group-
+IgnorePath /etc/gshadow
+IgnorePath /etc/gshadow-
 IgnorePath /etc/ld.so.cache
 IgnorePath /etc/passwd*
+IgnorePath /etc/shadow*
 IgnorePath /etc/ssh
+IgnorePath /etc/ssl
+IgnorePath /etc/subgid*
+IgnorePath /etc/subuid*
