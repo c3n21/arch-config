@@ -3,6 +3,7 @@ IgnorePath /etc/X11/xorg.conf.d
 IgnorePath /etc/dconf/db/ibus
 IgnorePath /etc/mkinitcpio.d
 IgnorePath /etc/pacman.d/gnupg/*.gpg*
+IgnorePath /etc/pacman.d/gnupg/.gpg-v21-migrated
 IgnorePath /etc/pacman.d/gnupg/S.dirmngr
 IgnorePath /etc/pacman.d/gnupg/S.gpg-agent
 IgnorePath /etc/pacman.d/gnupg/S.gpg-agent.browser

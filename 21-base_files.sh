@@ -32,6 +32,5 @@ CopyFile /etc/profile
 CopyFile /etc/samba/smb.conf
 CopyFile /etc/shells
 CopyFile /etc/snapper/configs/root 640
-CreateFile /etc/pacman.d/gnupg/.gpg-v21-migrated > /dev/null
 SetFileProperty /etc/samba/smb.conf group zhifan
 SetFileProperty /etc/samba/smb.conf owner zhifan
