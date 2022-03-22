@@ -6,6 +6,7 @@ AddPackage --foreign quickemu # Quickly create and run optimised Windows, macOS 
 AddPackage --foreign staruml # A sophisticated software modeler
 AddPackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
 AddPackage --foreign teamviewer # All-In-One Software for Remote Support and Online Meetings
+AddPackage --foreign write-good # Naive linter for English prose
 AddPackage barrier # Open-source KVM software based on Synergy (GUI)
 AddPackage firefox-developer-edition # Developer Edition of the popular Firefox web browser
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)

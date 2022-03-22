@@ -9,6 +9,7 @@ AddPackage jdk11-openjdk # OpenJDK Java 11 development kit
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage lua-language-server # Lua Language Server coded by Lua
 AddPackage maven # Java project management and project comprehension tool
+AddPackage npm # A package manager for javascript
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage pyright # Type checker for the Python language
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
