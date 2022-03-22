@@ -1,4 +1,3 @@
-IgnorePath /etc/NetworkManager/system-connections
 IgnorePath /etc/X11/xorg.conf.d
 IgnorePath /etc/dconf/db/ibus
 IgnorePath /etc/mkinitcpio.d
