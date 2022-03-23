@@ -1,4 +1,3 @@
-AddPackage --foreign brave-bin # Web browser that blocks ads and trackers by default (binary release)
 AddPackage --foreign megasync-bin # Easy automated syncing between your computers and your MEGA cloud drive
 AddPackage --foreign numix-circle-icon-theme-git # Circle icon theme from the Numix project
 AddPackage --foreign packettracer # Cisco PacketTracer 7.3.1 installation package
