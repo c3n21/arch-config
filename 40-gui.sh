@@ -3,6 +3,7 @@ AddPackage --foreign gnome-shell-extension-gsconnect # KDE Connect implementatio
 AddPackage --foreign gnome-shell-extension-pop-shell-git # Pop Shell - Tiling window management in Gnome (WIP)
 AddPackage --foreign gnome-shell-extension-sound-output-device-chooser-git # Enable selection of sound source and sink devices.
 AddPackage baobab
+AddPackage eog # Eye of Gnome: An image viewing and cataloging program
 AddPackage gdm
 AddPackage gnome-calendar # Simple and beautiful calendar application designed to perfectly fit the GNOME desktop
 AddPackage gnome-control-center # GNOME's main interface to configure various aspects of the desktop
