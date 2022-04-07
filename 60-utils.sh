@@ -1,3 +1,12 @@
+# Programs to be installed for desktop usage
+
+# mkchromecast
+AddPackage --foreign mkchromecast-git # Cast Audio/Video to your Google Cast and Sonos Devices
+AddPackage --foreign python-pychromecast-git # Library for Python 3 to communicate with the Google Chromecast.
+AddPackage python-pyqt5 # A set of Python bindings for the Qt5 toolkit
+
+AddPackage celluloid # Simple GTK+ frontend for mpv
+AddPackage --foreign system76-scheduler-git # system76 userspace scheduler
 AddPackage --foreign megasync-bin # Easy automated syncing between your computers and your MEGA cloud drive
 AddPackage --foreign numix-circle-icon-theme-git # Circle icon theme from the Numix project
 AddPackage --foreign packettracer # Cisco PacketTracer 7.3.1 installation package
@@ -20,3 +29,5 @@ AddPackage telegram-desktop # Official Telegram Desktop client
 AddPackage virt-manager # Desktop user interface for managing virtual machines
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xournalpp # Handwriting notetaking software with PDF annotation support
+AddPackage scrcpy # Display and control your Android device
+AddPackage imagemagick # An image viewing/manipulation program

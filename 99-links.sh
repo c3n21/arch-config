@@ -25,11 +25,13 @@ CreateLink /etc/systemd/system/timers.target.wants/reflector.timer /usr/lib/syst
 CreateLink /etc/systemd/system/timers.target.wants/snapper-cleanup.timer /usr/lib/systemd/system/snapper-cleanup.timer
 CreateLink /etc/systemd/system/timers.target.wants/snapper-timeline.timer /usr/lib/systemd/system/snapper-timeline.timer
 
+CreateLink /etc/systemd/system/multi-user.target.wants/com.system76.Scheduler.service /usr/lib/systemd/system/com.system76.Scheduler.service
 
 # Mon Mar 21 04:46:08 PM CET 2022 - New file properties
 
 
 SetFileProperty /etc/libvirt/secrets mode 700
+SetFileProperty /etc/libvirt/secrets mode ''
 SetFileProperty /etc/pacman.d/gnupg/crls.d mode 700
 SetFileProperty /etc/smbnetfs/.smb group nobody
 SetFileProperty /etc/smbnetfs/.smb mode 644
