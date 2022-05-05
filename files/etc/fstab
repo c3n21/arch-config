@@ -1,0 +1,42 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+#UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/         	btrfs     	rw,relatime,ssd,space_cache,subvolid=258,subvol=/@/.snapshots/1/snapshot	0 0
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/         	btrfs     	rw,relatime,ssd,space_cache,subvolid=258	0 0
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/.snapshots	btrfs     	rw,relatime,ssd,space_cache,subvolid=257,subvol=/@/.snapshots	0 0
+
+# /dev/sda2
+#UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/boot     	btrfs     	rw,relatime,ssd,space_cache,subvolid=259,subvol=/@/boot	0 0
+
+# /dev/sda1
+UUID=D3C5-59DF      	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/root     	btrfs     	rw,relatime,ssd,space_cache,subvolid=262,subvol=/@/root	0 0
+
+# /dev/sda2
+#UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/opt      	btrfs     	rw,relatime,ssd,space_cache,subvolid=261,subvol=/@/opt	0 0
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/srv      	btrfs     	rw,relatime,ssd,space_cache,subvolid=263,subvol=/@/srv	0 0
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/tmp      	btrfs     	rw,relatime,ssd,space_cache,subvolid=264,subvol=/@/tmp	0 0
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/usr/local	btrfs     	rw,relatime,ssd,space_cache,subvolid=265,subvol=/@/usr/local	0 0
+
+# /dev/sda2
+UUID=1d95c1a3-9d44-4469-80dc-12789200f187	/var/lib/flatpak	btrfs     	rw,relatime,ssd,space_cache,subvolid=267,subvol=/@/flatpak	0 0
+
+# /dev/sdd1
+UUID=05bf1f1c-2ee3-4b64-9914-f34ff974168b	none      	swap      	defaults  	0 0
+
+UUID="f772b126-265b-43c3-9120-5351fd9eddc2"	/home ext4 defaults 0 0
+
+/home/docker /var/lib/docker auto noatime,rw,errors=remount-ro,bind 0 0 
+#/home/nix /nix auto noatime,rw,errors=remount-ro,bind 0 0 

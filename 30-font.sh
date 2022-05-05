@@ -1,4 +1,4 @@
-AddPackage --foreign ttf-delugia-code # Cascadia Code + Nerd Fonts, with some small differences.
+AddPackage ttf-delugia-code # Cascadia Code + Nerd Fonts, with some small differences.
 AddPackage adobe-source-han-sans-cn-fonts # Adobe Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts
 AddPackage adobe-source-han-sans-otc-fonts # Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts
 AddPackage adobe-source-han-serif-cn-fonts # Adobe Source Han Serif Subset OTF - Simplified Chinese OpenType/CFF fonts

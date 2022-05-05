@@ -1,19 +1,21 @@
 # Programs to be installed for desktop usage
 
+AddPackage networkmanager-openvpn # NetworkManager VPN plugin for OpenVPN
+AddPackage libreoffice-fresh # LibreOffice branch which contains new features and program enhancements
 # mkchromecast
-AddPackage --foreign mkchromecast-git # Cast Audio/Video to your Google Cast and Sonos Devices
-AddPackage --foreign python-pychromecast-git # Library for Python 3 to communicate with the Google Chromecast.
+AddPackage mkchromecast-git # Cast Audio/Video to your Google Cast and Sonos Devices
+AddPackage python-pychromecast-git # Library for Python 3 to communicate with the Google Chromecast.
 AddPackage python-pyqt5 # A set of Python bindings for the Qt5 toolkit
 
 AddPackage celluloid # Simple GTK+ frontend for mpv
-AddPackage --foreign system76-scheduler-git # system76 userspace scheduler
-AddPackage --foreign megasync-bin # Easy automated syncing between your computers and your MEGA cloud drive
-AddPackage --foreign numix-circle-icon-theme-git # Circle icon theme from the Numix project
+AddPackage system76-scheduler-git # system76 userspace scheduler
+AddPackage megasync-bin # Easy automated syncing between your computers and your MEGA cloud drive
+AddPackage numix-circle-icon-theme-git # Circle icon theme from the Numix project
 AddPackage --foreign packettracer # Cisco PacketTracer 7.3.1 installation package
-AddPackage --foreign quickemu # Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
-AddPackage --foreign staruml # A sophisticated software modeler
-AddPackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
-AddPackage --foreign teamviewer # All-In-One Software for Remote Support and Online Meetings
+AddPackage quickemu # Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
+AddPackage staruml # A sophisticated software modeler
+AddPackage teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
+AddPackage teamviewer # All-In-One Software for Remote Support and Online Meetings
 AddPackage barrier # Open-source KVM software based on Synergy (GUI)
 AddPackage firefox-developer-edition # Developer Edition of the popular Firefox web browser
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
