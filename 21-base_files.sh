@@ -11,7 +11,6 @@ CopyFile /etc/machine-id 444
 CopyFile /etc/makepkg.conf
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/pacman.conf
-CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/custom
 CopyFile /etc/pacman.d/gnupg/crls.d/DIR.txt
 CopyFile /etc/pacman.d/gnupg/gpg-agent.conf

@@ -86,3 +86,4 @@
 # SetFileProperty /etc/smbnetfs/.smb mode 644
 # SetFileProperty /etc/smbnetfs/.smb owner smbnetfs
 # SetFileProperty /etc/pacman.d/gnupg/crls.d mode 700
+IgnorePath /etc/multipath 600

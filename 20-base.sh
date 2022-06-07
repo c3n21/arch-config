@@ -1,6 +1,3 @@
-AddPackage memtest86-efi # A free, thorough, stand alone memory test as an EFI application
-AddPackage pacman-cleanup-hook # hook to cleanup pacman cache keeping only the installed plus next most recent packages
-AddPackage nohang-git # A sophisticated low memory handler
 AddPackage aconfmgr-git # A configuration manager for Arch Linux
 AddPackage acpid # A daemon for delivering ACPI power management events with netlink support
 AddPackage autoconf # A GNU tool for automatically configuring source code
@@ -24,9 +21,12 @@ AddPackage linux-zen-headers # Headers and scripts for building modules for the 
 AddPackage lshw # A small tool to provide detailed information on the hardware configuration of the machine.
 AddPackage m4 # The GNU macro processor
 AddPackage man-db # A utility for reading man pages
+AddPackage memtest86-efi # A free, thorough, stand alone memory test as an EFI application
 AddPackage neovim-nightly-bin # Fork of Vim aiming to improve user experience, plugins, and GUIs - Nightly Builds
 AddPackage networkmanager # Network connection manager and user applications
+AddPackage nohang-git # A sophisticated low memory handler
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
+AddPackage pacman-cleanup-hook # hook to cleanup pacman cache keeping only the installed plus next most recent packages
 AddPackage pkgconf # Package compiler and linker metadata toolkit
 AddPackage podman-compose # A script to run docker-compose.yml using podman
 AddPackage refind # An EFI boot manager
@@ -42,6 +42,8 @@ AddPackage snapper # A tool for managing BTRFS and LVM snapshots. It can create,
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage tmux # A terminal multiplexer
+AddPackage tree # A directory listing program displaying a depth indented list of files
 AddPackage unrar # The RAR uncompression program
 AddPackage which # A utility to show the full path of commands
 AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
+AddPackage zip # Compressor/archiver for creating and modifying zipfiles

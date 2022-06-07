@@ -19,7 +19,7 @@ audio:x:996:
 disk:x:995:
 input:x:994:zhifan
 kmem:x:993:
-kvm:x:992:libvirt-qemu
+kvm:x:992:libvirt-qemu,qemu
 lp:x:991:
 optical:x:990:
 render:x:989:
@@ -67,5 +67,7 @@ sddm:x:962:
 mysql:x:961:
 libvirt-qemu:x:960:
 android-sdk:x:1003:zhifan
-flutterusers:x:1004:
+flutterusers:x:1004:zhifan
 nm-openvpn:x:959:
+dnsmasq:x:958:
+qemu:x:957:
