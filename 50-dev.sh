@@ -3,6 +3,7 @@ AddPackage android-sdk-platform-tools # Platform-Tools for Google Android SDK (a
 AddPackage android-studio # The official Android IDE (Stable branch)
 AddPackage android-tools # Android platform tools
 AddPackage clang # C language family frontend for LLVM
+AddPackage cmake # A cross-platform open-source make system
 AddPackage docker # Pack, ship and run any application as a lightweight container
 AddPackage docker-compose # Fast, isolated development environments using Docker
 AddPackage flutter # A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
