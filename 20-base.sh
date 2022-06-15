@@ -1,4 +1,3 @@
-AddPackage --foreign fakeroot-tcp # Tool for simulating superuser privileges,with tcp ipc
 AddPackage aconfmgr-git # A configuration manager for Arch Linux
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage clang # C language family frontend for LLVM
