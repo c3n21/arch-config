@@ -2,6 +2,7 @@ AddPackage aconfmgr-git # A configuration manager for Arch Linux
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage clang # C language family frontend for LLVM
 AddPackage fish # Smart and user friendly shell intended mostly for interactive use
+AddPackage htop # Interactive process viewer
 AddPackage man-db # A utility for reading man pages
 AddPackage neovim-nightly-bin # Fork of Vim aiming to improve user experience, plugins, and GUIs - Nightly Builds
 AddPackage openssh # Premier connectivity tool for remote login with the SSH protocol
