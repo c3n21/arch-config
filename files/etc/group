@@ -47,4 +47,4 @@ tss:x:975:
 zhifan:x:1000:
 git:x:974:
 dnsmasq:x:973:
-docker:x:972:
+docker:x:972:zhifan
