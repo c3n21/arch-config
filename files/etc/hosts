@@ -4,9 +4,8 @@
 127.0.0.1	localhost
 127.0.1.1	LAPTOP-G2H90V9R.localdomain	LAPTOP-G2H90V9R
 ﻿
-10.10.10.96	host.docker.internal
-10.10.10.96	gateway.docker.internal
-127.0.0.1	kubernetes.docker.internal
+10.10.10.104	host.docker.internal
+10.10.10.104	gateway.docker.internal
 127.0.0.1	kubernetes.docker.internal
 
 # The following lines are desirable for IPv6 capable hosts

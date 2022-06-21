@@ -6,3 +6,5 @@
 /usr/bin/git-shell
 /usr/bin/fish
 /bin/fish
+/bin/zsh
+/usr/bin/zsh
